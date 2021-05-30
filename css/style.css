@@ -4,3 +4,9 @@ h1 {
 .big-font {
     font-size: 50px;
 }
+.fuente-normal {
+    font-weight: 400;
+}
+.fuente-negrita {
+    font-weight: bold;
+}
