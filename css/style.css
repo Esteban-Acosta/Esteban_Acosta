@@ -1,3 +1,6 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+.big-font {
+    font-size: 50px;
+}
