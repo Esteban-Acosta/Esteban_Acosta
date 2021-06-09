@@ -1,5 +1,10 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 255, 179, 0.829);
+}
+.sub-titulo {
+    color: darkgoldenrod;
+    font-size: 70px;
 }
 .big-font {
     font-size: 50px;
@@ -20,10 +25,65 @@ h1 {
 }
 .fuente-sitioweb {
     font-family: 'ZCOOL KuaiLe', cursive;
+    color: royalblue;
+
 }
 .font-cinzel {
     font-family: 'Cinzel Decorative';
     font-size: 30px;
+    color: darkred;
+}
+p.font-42 {
+     font-size: 42px;
+     color: darkgoldenrod;
+     font-weight: bolder;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px;
+    /* Llamando un color por su nombre */
+    color: darkgreen;
+}
+p {
+    font-size: 3em;
+}
+.color-navy {
+    color: navy;
+}
+.color-avianca {
+    color: rgb(220,8,20);
+}
+.color-avianca {
+    color: rgb(220,8,20); 
+}
+.color-limegreen {
+    color: #32cd32;
+}
+.color-platzi {
+    color: rgb(18,31,61);
+}
+.color-platzi-2 {
+    color: rgb(191,11,255);
+}
+.color-ig {
+    color: rgb(226,0,60);
+    font-weight: bold;
+    font-size: 68px;
+    font-family: 'Black And White Picture', sans-serif;
+}
+.espaciado-letras {
+    letter-spacing: 1em;
+    font-style: italic;
+
+}
+.espaciado-palabras {
+    word-spacing: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.espaciado-lineas {
+    line-height: 3em;
+    font-style: italic;
 }
 /* cinzel-decorative-900 - latin */
 @font-face {
