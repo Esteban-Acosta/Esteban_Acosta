@@ -45,6 +45,11 @@ span.font-crazy {
     /* Llamando un color por su nombre */
     color: darkgreen;
 }
+span.titulo-lista {
+    font-weight: 900;
+    font-size: 1.2em;
+    
+}
 p {
     font-size: 3em;
 }
