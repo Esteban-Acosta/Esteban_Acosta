@@ -1,0 +1,70 @@
+body {
+    margin: 0 4em;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+.texto-margenes {
+    /* Afecta los 4 lados*/
+   /*  margin: 3em; */
+    /* Afecta los 4 lados individualmente pero lo declaro en una sola linea*/
+    /* margin: 4em 8em 2em 3em; */
+    /* Afecta los 4 lados declarados en 2 valores */
+    /* margin: 1em 8em; */
+    /* Declarando los 4 lados de forma explicita individualmente */
+ /*   margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    margin-left: 4em; */
+    text-align: justify;
+    font-size: 1.5em;
+}
+.parrafo-borde1 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid navy;
+
+}
+.parrafo-borde2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid cyan;
+}
+.parrafo-borde3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px dashed rgb(64,64,64);
+    border-right: 3px solid rgb(64,64,64);
+}
+.parrafo-padding1 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border: 3px solid navy;
+    padding: 1.5em;
+    background-color: teal;
+    color: white;
+    line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo-padding2 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 3px solid crimson;
+    padding-top: 2em;
+    font-family: fantasy;
+}
+.parrafo-padding3 {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px dashed rgb(76, 0, 255);
+    border-right: 3px solid rgb(76, 0, 255);
+    padding: 0 3em;
+    font-family: cursive;
+}

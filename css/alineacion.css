@@ -13,3 +13,17 @@
 p {
     font-size: 1.5em;
 }
+.texto-indentado {
+    text-indent: 5em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.texto-enfatizado {
+    font-size: 5em;
+}
+blockquote {
+    font-style: italic;
+    color: fuchsia;
+    font-size: 3em;
+    text-align: right;
+}
