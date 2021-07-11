@@ -1,24 +1,31 @@
 .color-navy {
     color: navy;
+    font-size: 40px;
+    font-weight: 900;
+
 }
 .color-avianca {
     color: rgb(220,8,20);
-}
-.color-avianca {
-    color: rgb(220,8,20); 
+    font-size: 40px;
+    font-weight: 900;
 }
 .color-limegreen {
     color: #32cd32;
+    font-size: 40px;
+    font-weight: 900;
 }
 .color-platzi {
     color: rgb(18,31,61);
+    font-size: 40px;
+    font-weight: 900;
 }
 .color-platzi-2 {
     color: rgb(191,11,255);
+    font-size: 40px;
+    font-weight: 900;
 }
 .color-ig {
     color: rgb(226,0,60);
-    font-weight: bold;
-    font-size: 68px;
-    font-family: 'Black And White Picture', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
 }

@@ -1,27 +1,29 @@
-.sub-titulo {
-    color: darkgoldenrod;
-    font-size: 70px;
-}
+
 .big-font {
     font-size: 50px;
 }
 .fuente-normal {
     font-weight: 400;
+    font-size: 19px;
 }
 .fuente-negrita {
     font-weight: bold;
+    font-size: 19px;
 }
 .estilo-normal {
     font-style: normal;
+    font-size: 19px;
 }
 .estilo-italico {
     font-style: italic;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 30px;
 }
 .fuente-sitioweb {
     font-family: 'ZCOOL KuaiLe', cursive;
     color: royalblue;
+    font-weight: 600;
+    font-size: 32px;
 
 }
 .font-cinzel {
@@ -32,27 +34,35 @@
 p.font-42 {
      font-size: 42px;
      color: darkgoldenrod;
-     font-weight: bolder;
+     font-weight: 600;
 }
 span.font-crazy {
-    font-weight: 900;
+    font-weight: 600;
     font-family: 'Kaushan Script', cursive;
     font-size: 55px;
     /* Llamando un color por su nombre */
     color: darkgreen;
 }
+h3 {
+    font-size: 22px;
+}
 .espaciado-letras {
     letter-spacing: 1em;
     font-style: italic;
+    font-size: 22px;
 
 }
 .espaciado-palabras {
     word-spacing: 1em;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+
 }
 .espaciado-lineas {
     line-height: 3em;
     font-style: italic;
+    font-size: 22px;
+
 }
 @font-face {
     font-family: 'Cinzel Decorative';

@@ -1,13 +1,14 @@
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: rgba(0, 4, 255, 0.829);
-}
-span.titulo-lista {
-    font-weight: 900;
-    font-size: 1.2em;
-    
+    font-family: 'Dancing Script', cursive;
+    color: rgba(47, 0, 255, 0.911);
+    font-size: 4em;
+
 }
 p {
-    font-size: 3em;
+    font-size: 2.9em;
+    color:rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+
 }
 /* cinzel-decorative-900 - latin */
