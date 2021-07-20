@@ -1,4 +1,7 @@
-
+a {
+    color: brown;
+    text-decoration: none;
+}
 .big-font {
     font-size: 50px;
 }

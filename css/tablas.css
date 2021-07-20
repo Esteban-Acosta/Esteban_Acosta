@@ -1,0 +1,64 @@
+body {
+    background: url(../img/fondoS2.jpg) no-repeat center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 2em;
+}
+table {
+    font-size: 1.6em;
+    margin: 1em 6.8em;
+    font-family: cursive;
+}
+td, th {
+    padding: 1.1em;
+    text-align: center;
+    background-color: rgb(130, 255, 130);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: rgb(66, 58, 58);
+}
+td {
+    background-color: rgb(233, 165, 165);
+}
+th.variedades {
+    color: rgb(201, 66, 66);
+}
+div {
+    margin: 0 6.3em;
+    margin-top: 10px;
+    padding: 9px 14px;
+    background-color: rgb(208, 89, 255);
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+p { 
+    text-align: center;
+    word-spacing: 4em;
+    margin-bottom: 10em;
+    font-size: 1.7em;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: 900;
+}
+.borde-titulo-hybrid {
+    background-color: rgb(221, 253, 36);
+}
+.borde-titulo-feminizada {
+    background-color: rgb(142, 208, 252);
+}
+.borde-titulo-automatica {
+    background-color: rgb(67, 211, 74);
+}
+.borde-titulo-regular {
+    background-color: rgb(184, 97, 255);
+}
+.borde-titulo-hybrid, .borde-titulo-feminizada,
+.borde-titulo-automatica, .borde-titulo-regular {
+    border: 1px solid whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}

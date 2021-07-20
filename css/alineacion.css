@@ -27,3 +27,7 @@ blockquote {
     font-size: 3em;
     text-align: right;
 }
+a {
+    color: brown;
+    text-decoration: none;
+}

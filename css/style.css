@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Dancing Script', cursive;
-    color: rgba(47, 0, 255, 0.911);
+    color: rgba(0, 0, 0, 0.911);
     font-size: 4em;
 
 }
@@ -9,6 +9,18 @@ p {
     color:rgb(0, 0, 0);
     font-family: 'Dancing Script', cursive;
     font-weight: 900;
+    margin-top: 62px;
 
 }
-/* cinzel-decorative-900 - latin */
+body {
+    background: url(../img/PLAYA.jpg);
+    background-size: cover;
+    
+}
+a {
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+}
+
+
+

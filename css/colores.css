@@ -29,3 +29,7 @@
     font-weight: 900;
     font-size: 40px;
 }
+a {
+    color: brown;
+    text-decoration: none;
+}

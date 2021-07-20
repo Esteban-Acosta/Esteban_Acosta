@@ -1,5 +1,5 @@
 body {
-    margin: 0 5em;
+    margin: 0.5em;
 }
 h1 {
     text-align: center;
@@ -10,7 +10,7 @@ img {
     margin: 0 auto;
 }
 .img-catalogo {
-    margin-bottom: -1em;
+    margin-bottom: -1.6em;
     display: inline;
 }
 p {
@@ -18,12 +18,14 @@ p {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     line-height: 1.5em;
+    margin-right: 3em;
 
 }
 span.font-precio {
     color: darkred;
     font-weight: 900;
-    font-family: 'Gloria Hallelujah', cursive; 
+    font-family: 'Gloria Hallelujah', cursive;
+
 
 }
 div {
@@ -32,4 +34,8 @@ div {
     height: 210px;
     width: 370px;
 
+}
+a {
+    color: brown;
+    text-decoration: none;
 }

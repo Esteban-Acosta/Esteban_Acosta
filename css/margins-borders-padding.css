@@ -1,9 +1,13 @@
 body {
-    margin: 0 4em;
+    margin: 0 0.5em;
 }
 h1 {
     text-align: center;
     font-size: 3em;
+}
+h2 {
+    padding: 0 1em;
+    margin: 1em;
 }
 .texto-margenes {
     /* Afecta los 4 lados*/
@@ -19,29 +23,36 @@ h1 {
     margin-left: 4em; */
     text-align: justify;
     font-size: 1.5em;
+    padding: 1em;
+    margin: 1em;
 }
 .parrafo-borde1 {
-    margin-top: 2.5em;
     font-size: 1.5em;
     text-align: justify;
-    border: 3px solid navy;
+    border: 3.5px solid navy;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 2em;
 
 }
 .parrafo-borde2 {
-    margin-top: 2.5em;
     font-size: 1.5em;
     text-align: justify;
     border-top: 3px solid cyan;
+    padding: 1em;
+    margin: 2.5em;
 }
 .parrafo-borde3 {
-    margin-top: 2.5em;
     font-size: 1.5em;
     text-align: justify;
-    border-left: 3px dashed rgb(64,64,64);
-    border-right: 3px solid rgb(64,64,64);
+    border-left: 4px dashed rgb(0, 0, 0);
+    border-right: 4px solid rgb(0, 0, 0);
+    padding: 1em;
+    margin: 2em;
+
 }
 .parrafo-padding1 {
-    margin-top: 2.5em;
+    margin: 2em;
     font-size: 1.5em;
     text-align: justify;
     border: 3px solid navy;
@@ -52,19 +63,25 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 .parrafo-padding2 {
-    margin-top: 2.5em;
+    margin: 2em;
+    margin-top: 3.5em;
     font-size: 1.5em;
     text-align: justify;
     border-top: 3px solid crimson;
-    padding-top: 2em;
+    padding-top: 1.5em;
     font-family: fantasy;
 }
 .parrafo-padding3 {
-    margin-top: 2.5em;
+    margin: 2em;
+    margin-top: 4em;
     font-size: 1.5em;
     text-align: justify;
     border-left: 3px dashed rgb(76, 0, 255);
     border-right: 3px solid rgb(76, 0, 255);
-    padding: 0 3em;
+    padding: 1em;
     font-family: cursive;
+}
+a {
+    color: brown;
+    text-decoration: none;
 }
