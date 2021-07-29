@@ -1,7 +1,4 @@
-body {
-    background: url(../img/fondoS2.jpg) no-repeat center;
-    background-size: cover;
-}
+
 h1 {
     text-align: center;
     font-family: cursive;
@@ -9,7 +6,7 @@ h1 {
 }
 table {
     font-size: 1.6em;
-    margin: 1em 6.8em;
+    margin: auto;
     font-family: cursive;
 }
 td, th {
@@ -27,16 +24,14 @@ th.variedades {
     color: rgb(201, 66, 66);
 }
 div {
-    margin: 0 6.3em;
     margin-top: 10px;
-    padding: 9px 14px;
-    background-color: rgb(208, 89, 255);
+    padding: 9px 7.5em;
     border-bottom: 5px solid rgb(0, 0, 0);
 }
 p { 
     text-align: center;
     word-spacing: 4em;
-    margin-bottom: 10em;
+    margin-bottom: 15em;
     font-size: 1.7em;
     color: rgb(0, 0, 0);
     font-family: cursive;
