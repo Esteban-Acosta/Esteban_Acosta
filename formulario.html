@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Busqueda de Empleo</h1>
+   <form action="" method="get">
+      <fieldset>
+         <div>
+            <label>Nombres</label><br>
+            <input type="text" name="Nombres"><br>
+            <label>Apellidos</label><br>
+            <input type="text" name="Apellidos"><br>
+            <label>Observaciones</label><br>
+            <textarea name="observaciones" cols="35" rows="5"></textarea><br>
+            <label>Seleccionar tipo de Empleo</label><br>
+            <label></label><input type="checkbox" value="Programador">Programador</label><br>
+            <label></label><input type="checkbox" value="Arquitecto">Arquitecto</label><br>
+            <label></label><input type="checkbox" value="Medico">Medico</label><br>
+            <label>Seleccione la Empresa</label><br>
+            <label><input type="radio" name="Sede" value="Microsoft">Empresa Microsoft</label><br>
+            <label><input type="radio" name="Sede" value="Las_Americas">Hospital las Americas</label><br>
+            <label><input type="radio" name="Sede" value="Focus">Empresa Focus</label><br><br>
+            <label>Cargo</label><br>
+            <select name="Cargo">
+                <option value="Administrador"><label>Administrador</label></option>
+                <option value="Gerente"><label>Gerente</label></option>
+                <option value="Director"><label>Director</label></option>
+            </select><br><br>
+            <input type="submit" value="Enviar">   
+
+
+
+         </div>
+      </fieldset>
+   </form>
+</body>
+</html>

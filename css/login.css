@@ -72,3 +72,7 @@ body {
 .login-box a:hover {
     color: #fff;
 }
+a {
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+}
