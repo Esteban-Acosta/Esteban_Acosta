@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(17, 67, 160);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5em;
+    margin-top: 2px;
+    box-shadow: 0px 15px 15px rgb(14, 14, 255);
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.content-main {
+    margin: 3em;
+    margin-top: 5em;
+}
