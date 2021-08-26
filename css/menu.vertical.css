@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color: rgb(131, 190, 192);
+}
+ul {
+    list-style: none;
+    margin: 40px 30px 40px 25px;
+}
+li {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 1.5em;
+}
+i {
+    margin-right: 10px;
+}
