@@ -29,7 +29,7 @@
     left: 700px;
     top: 400px;
 }
-.pos-fixed-4 {
+.pos-fixed-4 a{
     width: 100px;
     height: 40px;
     text-align: center;
@@ -39,6 +39,7 @@
     left: 76em;
     top: 20px;
     border-radius: 8px;
+    text-decoration: none;
 }
 h1 {
     text-align: center;

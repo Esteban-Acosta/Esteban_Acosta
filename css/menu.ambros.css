@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../img/especias22final.jpg);
+    font-family: 'Dancing Script', cursive;
+}
+.navegacion {
+    height: 8.5em;
+    width: auto;
+    background: url(../img/fondoHEADER.jpg);
+    text-align: center;
+    border-top: 3px solid rgb(169, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+.navegacion  li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 1.6em;
+}
+.navegacion a:hover {
+    text-decoration: none;
+    color: rgb(169, 0, 0);
+    font-size: 19.6px;
+}
+.navegacion a {
+    text-decoration: none;
+    color: rgb(255, 161, 29);
+    transition: all .500s;
+    font-size: 20px;
+    font-weight: 380;
+}
+div img{
+    margin: 8px 7.5px;
+}
