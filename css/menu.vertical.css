@@ -18,7 +18,7 @@ body {
     position: fixed;
     width: 200px;
     height: 100%;
-    background: #389fff;
+    background: linear-gradient(rgb(255, 75, 114), rgb(61, 61, 255));
     padding: 30px 0;
 }
 .wrapper .sidebar h2 {
@@ -28,9 +28,9 @@ body {
     margin-bottom: 30px;
 }
 .wrapper .sidebar ul li{
-    padding: 15px;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-    border-top: 1px solid rgba(225,225,225,0.05);
+    padding: 16px;
+    border-bottom: 1px solid rgba(32, 32, 32, 0.116);
+    border-top: 1px solid rgba(41, 41, 41, 0.123);
 }
 .wrapper .sidebar ul li a{
     color: #f7f7f7;
@@ -43,10 +43,10 @@ body {
 }
 
 .wrapper .sidebar ul li:hover {
-    background: #74bcff;
+    background: linear-gradient(rgb(255, 64, 105), rgb(72, 72, 255));
 }
 .wrapper .sidebar ul li:hover a{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .wrapper .sidebar .social_media {
     position: absolute;
@@ -58,11 +58,11 @@ body {
 .wrapper .sidebar .social_media a{
     display: block;
     width: 40px;
-    background: #74bcff;
+    background: rgb(56, 59, 255);
     height: 40px;
     line-height: 40px;
     text-align: center;
-    margin: 0 5px;
+    margin: 0 10px;
     color: #ffffff;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
