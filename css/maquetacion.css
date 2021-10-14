@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado, .nav-bar, .img-principal, .cards {
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+.main-container {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 20px;
+    grid-template: "encabezado       nav-bar           nav-bar"           100px
+                   "img-principal    img-principal     img-principal"     350px
+                   "card-1            card-2             card-3"           auto
+                   "card-4            card-5             card-6"           auto;
+}
+.encabezado {
+    background: rgb(255, 238, 0);
+    grid-area: encabezado;
+}
+.nav-bar {
+    background: rgb(0, 68, 255);
+    grid-area: nav-bar;
+}
+.img-principal {
+    background: rgb(255, 30, 0);
+    grid-area: img-primcipal;
+}
+.cards {
+    background: rgb(0, 204, 255);
+    grid-area: cards;
+}
