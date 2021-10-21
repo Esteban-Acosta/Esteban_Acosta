@@ -13,10 +13,14 @@ p {
 
 }
 body {
-    background: url(../img/PLAYA.jpg);
+    background: url(../img/PLAYA.jpg) no-repeat;
     background-size: cover;
     
 }
+
+/* Estilos del Reloj */
+
+
 
 
 
