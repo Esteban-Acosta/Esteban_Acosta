@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    gap: 6px;
+    /*width: 90%;*/
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.8em;
+} 
+/*contenedores hijos*/
+.container > div {
+    display: flex;
+    color: black;
+    padding: 18px;
+    box-shadow: 2px 2px 10px rgb(78, 67, 231);
+    justify-content: center;
+    /*align-items: center;*/
+}
+.container .nombre-dia {
+    background: rgb(31, 115, 250);
+}
+.primer-dia {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.nombre-mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-size: 1.8em;
+}
+.domingos {
+    background-color: rgb(31, 115, 250);
+}
+.festivos {
+    background-color: rgb(250, 31, 31);
+    text-align:center;
+}
+.text-festivos {
+    font-size: 1em;
+}
