@@ -3,11 +3,11 @@
     padding: 0;
 }
 .contenedor {
-   /* width: 100%; */
+    width: 100%;
    /* min-height: 100vh; */
-    padding-left: 45%;
-    padding-right: 1%;
-   /* box-sizing: border-box; */
+    padding-left: auto;
+   /* padding-right: auto; */
+    box-sizing: border-box;
     overflow: hidden;
 }
 .navbar {
@@ -19,11 +19,10 @@
     width: 98px;
     height: 98px;
     cursor: pointer;
-    margin-top: 10px;
     border-radius: 46px;
 }
 nav {
-    flex: 1;
+    flex: auto;
     text-align: right;
 }
 nav ul li {
