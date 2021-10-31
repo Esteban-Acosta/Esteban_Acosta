@@ -1,21 +1,13 @@
-h1 {
-    font-family: 'Dancing Script', cursive;
-    color: rgba(0, 0, 0, 0.911);
-    font-size: 4em;
-
-}
-p {
-    font-size: 2.9em;
-    color:rgb(0, 0, 0);
-    font-family: 'Dancing Script', cursive;
-    font-weight: 900;
-    margin-top: 62px;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-    background: url(../img/PLAYA.jpg) no-repeat;
+    font-family: 'Dancing Script', cursive;
+    background-image: url(../img/background33.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 /* Estilos del Reloj */
