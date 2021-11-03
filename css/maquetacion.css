@@ -15,11 +15,15 @@
     display: flex;
     align-items: center;
 }
+img {
+    border-radius: 6px;
+    display: inline-block;
+}
 .logo {
-    width: 98px;
-    height: 98px;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
-    border-radius: 46px;
+    border-radius: 47px;
 }
 nav {
     flex: auto;
@@ -36,5 +40,25 @@ nav ul li a {
     font-size: 21px;
 }
 nav ul li a:hover {
-    color: #faa73bca;
+    color: #ff6161ca;
+}
+div {
+    padding: 4px;
+    background: rgb(228, 228, 228);
+    border-radius: 6px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 290px 290px 290px;
+    gap: 1em;
+    margin: 15px;
 } 
+.grid div {
+    background: rgb(177, 177, 177);
+    padding: 1em;
+    cursor: pointer;
+}
+.grid div:hover {
+    color: white;
+}
