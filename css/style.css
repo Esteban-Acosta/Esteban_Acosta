@@ -4,13 +4,55 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Dancing Script', cursive;
-    background-image: url(../img/background33.jpg);
-    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/background1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+.main-menu {
+    font-size: 21px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 62px;
+    height: 100vh;
+    background-color: rgba(17, 0, 255, 0.712);
+    overflow: hidden;
+    white-space: nowrap;
+    transition: .4s ease;
+   /* box-shadow: 2px 0 15px 2px rgb(42, 92, 255); */
+
+}
+.main-menu:hover {
+    width: 204px;
+    overflow-y: scroll;
+}
+.main-menu .menu-item {
+    padding: 9px;
+}
+.main-menu .menu-item:hover {
+    background: rgb(88, 150, 250);
+    cursor: pointer;
+}
+.fas {
+    font-size: 20px;
+    width: 56px;
+    padding: 10px;
+}
+.fab {
+    font-size: 20px;
+    width: 56px;
+    padding: 10px; 
 }
 
-/* Estilos del Reloj */
+/* RELOJ */
+
 
 
 
