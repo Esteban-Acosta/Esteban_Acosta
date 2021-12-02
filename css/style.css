@@ -20,9 +20,9 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 62px;
+    width: 60px;
     height: 100vh;
-    background-color: rgba(17, 0, 255, 0.712);
+    background-color: rgba(17, 67, 160, 0.774);
     overflow: hidden;
     white-space: nowrap;
     transition: .4s ease;
@@ -30,7 +30,7 @@ a {
 
 }
 .main-menu:hover {
-    width: 204px;
+    width: 255px;
     overflow-y: scroll;
 }
 .main-menu .menu-item {
@@ -47,11 +47,10 @@ a {
 }
 .fab {
     font-size: 20px;
-    width: 56px;
+    width: 52px;
     padding: 10px; 
 }
 
-/* RELOJ */
 
 
 
